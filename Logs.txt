@@ -1,0 +1,100 @@
+2021-10-10 00:46:56 INFO  UserDao:63 - User ADDED successfully
+2021-10-10 00:46:56 INFO  UserDao:63 - User ADDED successfully
+2021-10-10 00:46:56 INFO  UserDao:63 - User ADDED successfully
+2021-10-10 00:46:56 INFO  ReimbursementStatusDao:27 - Reimbursement Status ADDED Successfully
+2021-10-10 00:46:56 INFO  ReimbursementStatusDao:27 - Reimbursement Status ADDED Successfully
+2021-10-10 00:46:56 INFO  ReimbursementStatusDao:27 - Reimbursement Status ADDED Successfully
+2021-10-10 00:46:56 INFO  ReimbursementTypeDao:26 - Reimbursement Type Added
+2021-10-10 00:46:56 INFO  ReimbursementTypeDao:26 - Reimbursement Type Added
+2021-10-10 00:46:56 INFO  ReimbursementTypeDao:26 - Reimbursement Type Added
+2021-10-10 00:46:56 INFO  ReimbursementTypeDao:26 - Reimbursement Type Added
+2021-10-10 00:46:56 INFO  ReimbursementDao:48 - Reimbursement Added By: nk123
+2021-10-10 00:46:56 INFO  ReimbursementDao:48 - Reimbursement Added By: nk123
+2021-10-10 00:46:56 INFO  ReimbursementDao:48 - Reimbursement Added By: subme
+2021-10-10 00:50:32 INFO  UserDao:63 - User ADDED successfully
+2021-10-10 00:50:32 INFO  UserDao:63 - User ADDED successfully
+2021-10-10 00:50:32 INFO  UserDao:63 - User ADDED successfully
+2021-10-10 00:50:32 INFO  ReimbursementStatusDao:27 - Reimbursement Status ADDED Successfully
+2021-10-10 00:50:32 INFO  ReimbursementStatusDao:27 - Reimbursement Status ADDED Successfully
+2021-10-10 00:50:32 INFO  ReimbursementStatusDao:27 - Reimbursement Status ADDED Successfully
+2021-10-10 00:50:32 INFO  ReimbursementTypeDao:26 - Reimbursement Type Added
+2021-10-10 00:50:32 INFO  ReimbursementTypeDao:26 - Reimbursement Type Added
+2021-10-10 00:50:32 INFO  ReimbursementTypeDao:26 - Reimbursement Type Added
+2021-10-10 00:50:32 INFO  ReimbursementTypeDao:26 - Reimbursement Type Added
+2021-10-10 00:50:32 INFO  ReimbursementDao:48 - Reimbursement Added By: nk123
+2021-10-10 00:50:32 INFO  ReimbursementDao:48 - Reimbursement Added By: nk123
+2021-10-10 00:50:32 INFO  ReimbursementDao:48 - Reimbursement Added By: subme
+2021-10-10 00:57:50 INFO  UserDao:39 - User loggedIn successfully
+2021-10-10 00:59:31 INFO  UserDao:39 - User loggedIn successfully
+2021-10-10 01:24:53 INFO  UserDao:39 - User loggedIn successfully
+2021-10-10 01:25:47 INFO  UserDao:39 - User loggedIn successfully
+2021-10-10 01:33:24 INFO  UserDao:39 - User loggedIn successfully
+2021-10-10 01:33:52 INFO  UserDao:39 - User loggedIn successfully
+2021-10-10 01:38:44 INFO  UserDao:39 - User loggedIn successfully
+2021-10-10 01:39:14 INFO  UserDao:39 - User loggedIn successfully
+2021-10-10 01:39:35 INFO  UserDao:39 - User loggedIn successfully
+2021-10-10 01:44:57 INFO  UserDao:41 - User loggedIn successfully
+2021-10-10 01:46:26 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 01:47:10 INFO  UserDao:64 - User ADDED successfully
+2021-10-10 01:47:10 INFO  UserDao:64 - User ADDED successfully
+2021-10-10 01:47:10 INFO  UserDao:64 - User ADDED successfully
+2021-10-10 01:47:10 INFO  ReimbursementStatusDao:27 - Reimbursement Status ADDED Successfully
+2021-10-10 01:47:10 INFO  ReimbursementStatusDao:27 - Reimbursement Status ADDED Successfully
+2021-10-10 01:47:10 INFO  ReimbursementStatusDao:27 - Reimbursement Status ADDED Successfully
+2021-10-10 01:47:10 INFO  ReimbursementTypeDao:26 - Reimbursement Type Added
+2021-10-10 01:47:10 INFO  ReimbursementTypeDao:26 - Reimbursement Type Added
+2021-10-10 01:47:10 INFO  ReimbursementTypeDao:26 - Reimbursement Type Added
+2021-10-10 01:47:10 INFO  ReimbursementTypeDao:26 - Reimbursement Type Added
+2021-10-10 01:47:10 INFO  ReimbursementDao:48 - Reimbursement Added By: nk123
+2021-10-10 01:47:10 INFO  ReimbursementDao:48 - Reimbursement Added By: nk123
+2021-10-10 01:47:10 INFO  ReimbursementDao:48 - Reimbursement Added By: subme
+2021-10-10 01:47:28 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 01:48:38 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 01:48:46 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 01:48:48 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 01:48:57 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 01:49:11 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 01:49:12 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 01:49:14 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 01:49:44 INFO  UserDao:64 - User ADDED successfully
+2021-10-10 01:49:44 INFO  UserDao:64 - User ADDED successfully
+2021-10-10 01:49:44 INFO  UserDao:64 - User ADDED successfully
+2021-10-10 01:49:44 INFO  ReimbursementStatusDao:27 - Reimbursement Status ADDED Successfully
+2021-10-10 01:49:44 INFO  ReimbursementStatusDao:27 - Reimbursement Status ADDED Successfully
+2021-10-10 01:49:44 INFO  ReimbursementStatusDao:27 - Reimbursement Status ADDED Successfully
+2021-10-10 01:49:44 INFO  ReimbursementTypeDao:26 - Reimbursement Type Added
+2021-10-10 01:49:44 INFO  ReimbursementTypeDao:26 - Reimbursement Type Added
+2021-10-10 01:49:44 INFO  ReimbursementTypeDao:26 - Reimbursement Type Added
+2021-10-10 01:49:44 INFO  ReimbursementTypeDao:26 - Reimbursement Type Added
+2021-10-10 01:49:44 INFO  ReimbursementDao:48 - Reimbursement Added By: nk123
+2021-10-10 01:49:44 INFO  ReimbursementDao:48 - Reimbursement Added By: nk123
+2021-10-10 01:49:44 INFO  ReimbursementDao:48 - Reimbursement Added By: subme
+2021-10-10 01:51:03 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 01:51:03 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 01:52:41 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 01:52:41 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 01:58:45 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 01:58:45 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 02:01:06 INFO  ReimbursementDao:48 - Reimbursement Added By: nk123
+2021-10-10 02:01:06 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 02:01:06 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 02:08:12 INFO  ReimbursementDao:117 - Reimbursement list retreived on the basis of UserId BY: nk123
+2021-10-10 02:08:12 INFO  ReimbursementDao:145 - Reimbursement Deleted  by usernamenk123
+2021-10-10 02:08:12 INFO  ReimbursementDao:48 - Reimbursement Added By: nk123
+2021-10-10 02:08:12 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 02:08:12 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 02:14:15 INFO  ReimbursementDao:117 - Reimbursement list retreived on the basis of UserId BY: nk123
+2021-10-10 02:14:15 INFO  ReimbursementDao:145 - Reimbursement Deleted  by usernamenk123
+2021-10-10 02:14:15 INFO  ReimbursementDao:48 - Reimbursement Added By: nk123
+2021-10-10 02:14:15 INFO  ReimbursementDao:192 - Reimbursement Updated  by usernamenk123
+2021-10-10 02:14:15 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 02:14:15 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 02:22:25 INFO  ReimbursementDao:117 - Reimbursement list retreived on the basis of UserId BY: nk123
+2021-10-10 02:22:25 INFO  ReimbursementDao:145 - Reimbursement Deleted  by usernamenk123
+2021-10-10 02:22:25 INFO  ReimbursementDao:48 - Reimbursement Added By: nk123
+2021-10-10 02:22:25 INFO  ReimbursementDao:192 - Reimbursement Updated  by usernamenk123
+2021-10-10 02:22:25 INFO  ReimbursementDao:168 - Reimbursement listed by Status  by username
+2021-10-10 02:22:25 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 02:22:25 INFO  UserDao:39 - User loggedIn successfully....
+2021-10-10 02:22:25 INFO  ReimbursementDao:93 - Reimbursement list retreived by usernamenk123
+2021-10-10 02:26:06 INFO  UserDao:39 - User loggedIn successfully....
