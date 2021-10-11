@@ -40,9 +40,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                           <li><a id="logout" class="dropdown-item" href="#">logout</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          
                         </ul>
                     </li>
                 </ul>
@@ -56,22 +54,13 @@
             <div class="col-sm-12 content-part">
 
             
-            <div class="col-sm-3 sidebar">
-                <div class="list-group">
-                    <button type="button" class="list-group-item list-group-item-action active">
-                      Your Information Summary
-                    </button>
-                    <button type="button" class="list-group-item list-group-item-action">Name</button>
-                    <button type="button" class="list-group-item list-group-item-action">Online</button>
-                    <button type="button" class="list-group-item list-group-item-action">Status</button>
-                    
-                  </div>
-            </div>  
-            <div class="col-sm-9 right-content-part">
+             
+            <div class="col-sm-12 right-content-part">
+              <form enctype="multipart/form-data"></form>
                 <div id="reimbursement" class="reimbursement">
-                    <h1 id="reimbursement-header"> Request Reimbursement </h1>
+                  <h1 id="reimbursement-header"> Request Reimbursement </h1>
                     <div id="message-messages"></div>
-                    <div class="row mb-3" id="formInfo">
+                    <div class="row mb-3">
                     <label for="reimbursementType" class="col-sm-3 col-form-label">Reimbursement Type <p class="requiredValidation">*</p></label>
                     <div class="col-sm-6" id="reimbType">
                         <select class="form-select" id="reimbursementType">
@@ -92,7 +81,7 @@
                     <div class="row mb-3" id="reimbFile">
                         <label for="receipt" class="col-sm-3 col-form-label">Upload Receipt</label>
                         <div class="col-sm-6">
-                            <input type="file" class="form-control" id="receipt">
+                            <input type="file" name="receipt" class="form-control" id="receipt">
                         </div>
                     </div>
                     <div class="row mb-3" id="reimbDescription">
@@ -102,10 +91,11 @@
                         </div>
                     </div>
                     <div class="row mb-3" id="submit-button-section">
-                            <button id="submit-reimbursement" class="btn btn-success">Request Reimbursement</button>
+                            <input type="button" id="submit-reimbursement" value="Request Reimbursement" class="btn btn-success">
                     </div>
+                  </div> 
                 </div> 
-            </div> 
+              </form>
             </div>
         </div>
     </div>

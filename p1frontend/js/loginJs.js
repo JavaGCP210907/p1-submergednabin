@@ -52,13 +52,11 @@ async function loginFunc(){
     
     if(usern == ""){
         
-        document.getElementById("error-message-username").innerHTML = '<div class="alert alert-danger" role="alert">'+
-        'This field is Required !!</div>';
-        console.log("Empty Username");
+        document.getElementById("error-message-username").innerHTML = "This field is Required!! ";
+       
     }else if(passd ==""){
-        document.getElementById("error-message-pass").innerHTML = '<div class="alert alert-danger" role="alert">'+
-        'This field is Required !!</div>';
-        console.log("Empty password");
+        document.getElementById("error-message-pass").innerHTML = "This field is Required !!";
+        
     }
     else{
 
@@ -86,7 +84,7 @@ async function loginFunc(){
          
     
         }else{
-            document.getElementById("message-error").innerHTML = '<div class="alert alert-warning alert-dismissible fade show" role="alert">Invalid User or password.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
+            document.getElementById("message-error").innerHTML = "Invalid Username/Password";
         }
     }
     // console.log(user);

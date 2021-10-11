@@ -8,6 +8,18 @@ body {
     font-size: 20px;
     color: #0059ff;
 }
+p#error-message-username {
+    color: red;
+    margin-bottom: 5px;
+}
+p#error-message-pass {
+    color: red;
+    margin-bottom: 5px;
+}
+p#message-error {
+    color: red;
+    margin-bottom: 5px;
+}
 
 h1#login-header {
     font-family: sans-serif;
@@ -50,7 +62,7 @@ h1#reimbursement-header {
 #reimbursement {
     margin: 1em 4em;
 }
-.col-sm-9.right-content-part {
+.right-content-part {
     background: radial-gradient(#23a10c, transparent);
 }
 
@@ -112,29 +124,36 @@ a.navbar-brand {
 /* styling for manager dashboard starts here */
 p#requestStatus {
     color: #0dcaf0;
-    background: linear-gradient(
-45deg, #212529, transparent);
+    background: linear-gradient(45deg, #04192e, transparent);
     text-align: center;
     font-size: 1.4em;
-    text-shadow: 1px 1px 3px #dc3545;
+    text-shadow: 1px 1px 3px #5150bf54;
+    margin: 1em 10em 1em 10em;
+    padding: 9px 6px;
+    box-shadow: 6px 6px 4px #2d61ad;
 }
 
 button#submitManagerBtn {
     width: 10em;
     height: 3em;
-    background: linear-gradient(
-45deg, rebeccapurple, transparent);
+    background: linear-gradient(45deg, rebeccapurple, transparent);
     border: none;
     box-shadow: 6px -6px 10px white;
-    margin: 2em 20em;
+    margin: 1em 25em;
 }
-.col-sm-9.right-content-part-manager {
+.right-content-part-manager {
     background: radial-gradient(#0d6efd, transparent);
 }
 table#table-design {
    
     background: linear-gradient(45deg, #0d6efd, transparent);
     margin-top: 2em;
+}
+div#formInfo {
+    margin-left: 2em;
+}
+select#statusCheck {
+    height: 3em;
 }
 /* custom css on bootstrap elements */
 button.list-group-item.list-group-item-action {
@@ -144,4 +163,7 @@ button.list-group-item.list-group-item-action {
 .list-group {
     background: #dc3545;
     text-align: center;
+}
+button {
+    margin: 0 5px;
 }

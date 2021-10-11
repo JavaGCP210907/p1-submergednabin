@@ -96,7 +96,8 @@ if(getCookie("name") != ""){
                     "<td>"+ fullname +"</td>"+
                    
                     "<td>"+ data[i].reimbType.type +"</td>"+
-                    "<td>"+ data[i].reimb_receipt +"</td>"+
+                    "<td>"+ data[i].description +"</td>"+
+                    // "<td>"+ data[i].reimb_receipt +"</td>"+
                     "<td>"+ data[i].amount +"</td>"+
                     "<td>"+ data[i].submitted_date +"</td>"+
                     "<td>"+ data[i].status.type +"</td>"+
@@ -210,7 +211,7 @@ if(getCookie("name") != ""){
                   </div>`;
 
                   document.body.append(modalWrap);
-                  alert(rID);
+                //   alert(rID);
                   
                   var myModal = new bootstrap.Modal(document.getElementById("exampleModal"));
                 
@@ -229,6 +230,7 @@ if(getCookie("name") != ""){
 
         }else{
             console.log(response.status);
+            
             console.log("Error Please Check your code");
         }
     }

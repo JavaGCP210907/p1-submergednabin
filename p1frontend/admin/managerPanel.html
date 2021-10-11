@@ -17,19 +17,6 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav main-nav">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page"  href="/reimbursementForm.html">Add Reimbursement</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Status.html">Reimbursement Status</a>
-                    </li>
-                    
-                    
-                  </ul>
-                </div>
-                
                 
               </div>
               <div class="collapse navbar-collapse" id="user-details">
@@ -40,9 +27,6 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                           <li><a id="logout" class="dropdown-item" href="#">logout</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -54,7 +38,7 @@
         <div class="row reimb-row">
    
             <div class="col-sm-12 content-part">
-            <div class="col-sm-3 sidebar">
+            <!-- <div class="col-sm-3 sidebar">
                 <div class="list-group">
                     <button type="button" class="list-group-item list-group-item-action active">
                       All Request
@@ -64,13 +48,13 @@
                     <button type="button" class="list-group-item list-group-item-action">Status</button>
                     
                   </div>
-            </div>  
-            <div class="col-sm-9 right-content-part-manager">
+            </div>   -->
+            <div class="col-sm-12 right-content-part-manager">
                 <div id="reimbursement" class="reimbursement">
                     <h1 id="reimbursement-header"> Dashboard </h1>
                     <p id="requestStatus">Status Check</p>
                     <div class="row mb-3" id="formInfo">
-                        <label for="statusCheck" class="col-sm-4 col-form-label">Reimbursement Requests</label>
+                        <label for="statusCheck" class="col-sm-2 col-form-label">Reimbursement Status</label>
                         <div class="col-sm-6" id="reimbType">
                             <select class="form-select" id="statusCheck">
                                 <option disabled="disabled">Choose...</option>
@@ -88,7 +72,7 @@
             </div> 
             </div>
             <div class="col-sm-12">
-                <table class="table" id="table-design">
+                <table class="table table-striped table-dark" id="table-design">
                     <thead>
                           <tr>
                               <th>S/N</th>

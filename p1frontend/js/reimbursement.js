@@ -33,7 +33,7 @@ function deleteCookie(){
   function checkCookie() {
     let user = getCookie("username");
     if (user != "") {
-      alert("Welcome again " + user);
+    //   alert("Welcome again " + user);
     } else {
       deleteCookie();
       window.BeforeUnloadEvent();
@@ -54,7 +54,9 @@ async function addReimbursement(event){
     
     let amount = document.getElementById("reimbursementAmount").value;
 
-    let reimb_receipt = document.getElementById("receipt").value;
+    let reimb_receipt = document.getElementById("receipt").files[0]; 
+    // document.getElementById("receipt").value;
+    console.log(reimb_receipt);
     let type = document.getElementById("reimbursementType").value;
     let typeName = {
         reimbursementType1:"Lodging",
@@ -103,7 +105,7 @@ async function addReimbursement(event){
             amount:amount,
             submitted_date:submitted_date,
             description:description,
-            reimb_receipt:"filenew.png",
+            reimb_receipt:"receipt"+ Math.floor(Math.random())+ ".jpg",
             user: {
                 
                 username: username,
@@ -151,7 +153,7 @@ async function addReimbursement(event){
             document.getElementById("reimbursementAmount").value="";
             document.getElementById("receipt").value="";
             // window.location = "./reimbursementForm.html";
-            
+        
             
         }else{
             console.log("failed to insert information into database");

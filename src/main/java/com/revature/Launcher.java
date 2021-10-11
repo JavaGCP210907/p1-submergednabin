@@ -1,8 +1,10 @@
 package com.revature;
 
+import java.io.File;
 import java.security.NoSuchAlgorithmException;
 import java.security.spec.InvalidKeySpecException;
-import java.util.List;
+
+import org.apache.logging.log4j.core.util.FileUtils;
 
 import com.revature.controllers.LoginController;
 import com.revature.controllers.ReimbursementController;
@@ -19,6 +21,7 @@ import com.revature.models.UserRole;
 import com.revature.utils.PasswordEncryption;
 
 import io.javalin.Javalin;
+import io.javalin.core.util.FileUtil;
 
 public class Launcher {
 	
@@ -66,61 +69,58 @@ public class Launcher {
 			
 //		System.out.println(user.getFirstName());
 		
-//		String password1 = pasEncrypt.generateStrongHashedPwd("nabin123");
-//		String password2 = pasEncrypt.generateStrongHashedPwd("admin");
-//		String password3 = pasEncrypt.generateStrongHashedPwd("nabin222");
-//		
-//		
-//		UserRole role1 = new UserRole("Employee");
-//		UserRole role2 = new UserRole("Finance Manager");
-////		
-//		urole.insert(role1);
-//		urole.insert(role2);
-//		
-//		User u1 = new User("subme",password1, "Rabi", "ood", "submergednabin@gmail.com", role1);
-//		User u2 = new User("admin",password2, "Nabin", "K", "submergednabin@hotmail.com", role2);
-//		User u3 = new User("nk123",password3, "someone", "ravi", "user@hotmail.com", role1);
-//
-//		
-//		
-//		udao.insertUser(u1);
-//		udao.insertUser(u2);
-//		udao.insertUser(u3);
-//		
+		String password1 = pasEncrypt.generateStrongHashedPwd("nabin123");
+		String password2 = pasEncrypt.generateStrongHashedPwd("admin");
+		String password3 = pasEncrypt.generateStrongHashedPwd("nabin222");
+		
+		UserRole role1 = new UserRole("Employee");
+		UserRole role2 = new UserRole("Finance Manager");
+		
+		urole.insert(role1);
+		urole.insert(role2);
+		
+		User u1 = new User("helloworld",password1, "Rabi", "ood", "app@gmail.com", role1);
+		User u2 = new User("admin",password2, "Nabin", "K", "app@hotmail.com", role2);
+		User u3 = new User("nk123",password3, "Nabin", "Khatri", "user@hotmail.com", role1);
+	
+		udao.insertUser(u1);
+		udao.insertUser(u2);
+		udao.insertUser(u3);
+		
 
-//		ReimbursementStatus statusType1 = new ReimbursementStatus("Pending");
-//		ReimbursementStatus statusType2 = new ReimbursementStatus("Approved");
-//		ReimbursementStatus statusType3 = new ReimbursementStatus("Denied");
-//		
-//		reimbStatus.insert(statusType1);
-//		reimbStatus.insert(statusType2);
-//		reimbStatus.insert(statusType3);
-//		
-//
-//		ReimbursementType type1 = new ReimbursementType("Lodging");
-//		ReimbursementType type2 = new ReimbursementType("Travel");
-//		ReimbursementType type3 = new ReimbursementType("Food");
-//		ReimbursementType type4 = new ReimbursementType("Other");
-//		
-//		reimbType.insertReimbursementType(type1);
-//		reimbType.insertReimbursementType(type2);
-//		reimbType.insertReimbursementType(type3);
-//		reimbType.insertReimbursementType(type4);
-//		
-//		//Insert some dummy data into reimbursement
-//	
-//		//int amount, String submitted_date, String description, String reimb_receipt, User user,
-//			//User resolver, ReimbursementStatus status, ReimbursementType reimbType
-//		
-//		Reimbursement rmb = new Reimbursement(500, "09/21/2020","re receipt", "receipt4.png", u1, u2, statusType1, type2 );
-//		Reimbursement rmb2 = new Reimbursement(500, "10/01/2020","re receipt", "receipt3.png",u1 , u2, statusType2, type3 );
-//		Reimbursement rmb3 = new Reimbursement(500, "04/21/2021","re receipt", "receipt5.png", u1, u2, statusType1, type4 );
-//		
-////		tring user_name, int reimbtypeId, int statusId, Reimbursement reimbursement
-//		
-//		rdao.insertReimbursement("nk123",1,1,rmb);
-//		rdao.insertReimbursement("nk123",2,1,rmb3);
-//		rdao.insertReimbursement("subme",3,1,rmb2);
+		ReimbursementStatus statusType1 = new ReimbursementStatus("Pending");
+		ReimbursementStatus statusType2 = new ReimbursementStatus("Approved");
+		ReimbursementStatus statusType3 = new ReimbursementStatus("Denied");
+		
+		reimbStatus.insert(statusType1);
+		reimbStatus.insert(statusType2);
+		reimbStatus.insert(statusType3);
+		
+
+		ReimbursementType type1 = new ReimbursementType("Lodging");
+		ReimbursementType type2 = new ReimbursementType("Travel");
+		ReimbursementType type3 = new ReimbursementType("Food");
+		ReimbursementType type4 = new ReimbursementType("Other");
+		
+		reimbType.insertReimbursementType(type1);
+		reimbType.insertReimbursementType(type2);
+		reimbType.insertReimbursementType(type3);
+		reimbType.insertReimbursementType(type4);
+		
+		//Insert some dummy data into reimbursement
+	
+		//int amount, String submitted_date, String description, String reimb_receipt, User user,
+			//User resolver, ReimbursementStatus status, ReimbursementType reimbType
+		
+		Reimbursement rmb = new Reimbursement(500, "09/21/2020","re receipt", "receipt4.png", u1, null, statusType1, type2 );
+		Reimbursement rmb2 = new Reimbursement(500, "10/01/2020","re receipt", "receipt3.png",u1 , null, statusType2, type3 );
+		Reimbursement rmb3 = new Reimbursement(500, "04/21/2021","re receipt", "receipt5.png", u1, null, statusType1, type4 );
+		
+
+	
+		rdao.insertReimbursement("nk123",1,1,rmb);
+		rdao.insertReimbursement("nk123",2,1,rmb3);
+		rdao.insertReimbursement("nk123",3,1,rmb2);
 
 //		
 		
@@ -149,7 +149,12 @@ public class Launcher {
 		  app.post("/login", lc.loginHandler);
 		  
 		  //request from employee
-		  app.post("/add-reimbursement", rc.reimbursementHandler); 
+		  app.post("/add-reimbursement", rc.reimbursementHandler);  
+//		  app.post("/add-reimbursement", ctx -> {
+//			    ctx.uploadedFiles("receipt").forEach(uploadedFile -> {
+//			        FileUtil.streamToFile(uploadedFile.getContent(), "upload/" + uploadedFile.getFilename());
+//			    });
+//			});
 		  app.get("/status/:username/:statusid", rc.reimbursementStatusHandler);
 		  app.get("/status/:username", rc.reimbursementByUserHandler);
 		  app.get("/list-status", rc.listAllReimbursementHandler);
